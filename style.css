@@ -1,0 +1,55 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#box
+{
+    height: 300px;
+    width: 300px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 30px;
+
+}
+
+body
+{
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin: 0 auto;
+    width: 800px;
+    height: 1000px;
+}
+
+html
+{
+    background-color: rgb(154, 136, 136);
+}
+#box-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+#input-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+#input-container input
+{
+   padding: 5px;
+   width: 200px;
+   margin-top: 10px;
+}
+
+#text-container
+{
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
